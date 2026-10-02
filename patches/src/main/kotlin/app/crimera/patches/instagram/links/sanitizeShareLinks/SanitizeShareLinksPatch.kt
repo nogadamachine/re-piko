@@ -1,0 +1,30 @@
+/*
+ * Copyright (C) 2026 piko <https://github.com/crimera/piko>
+ *
+ * See the included NOTICE file for GPLv3 §7(b) terms that apply to this code.
+ */
+
+package app.crimera.patches.instagram.links.sanitizeShareLinks
+
+import app.crimera.patches.instagram.links.shareLinks.hookShareLinks
+import app.crimera.patches.instagram.misc.settings.settingsPatch
+import app.crimera.patches.instagram.utils.Constants.COMPATIBILITY_INSTAGRAM
+import app.crimera.patches.instagram.utils.enableSettings
+import app.morphe.patcher.patch.bytecodePatch
+
+@Suppress("unused")
+val sanitizeShareLinksPatch =
+    bytecodePatch(
+        name = "공유 링크 추적 정보 제거",
+        description = "공유 링크에서 추적용 매개변수를 제거합니다.",
+    ) {
+
+        dependsOn(settingsPatch)
+        compatibleWith(COMPATIBILITY_INSTAGRAM)
+
+        execute {
+            hookShareLinks("sanitizeUrl")
+
+            enableSettings("sanitizeShareLinks")
+        }
+    }

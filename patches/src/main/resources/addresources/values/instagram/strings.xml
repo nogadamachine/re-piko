@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ads Section -->
+    <string name="piko_category_ads">Ads</string>
+    <string name="piko_disable_ads">Disable ads</string>
+    <string name="piko_hide_suggested_content">Hide suggested content</string>
+    <string name="piko_hide_suggested_content_desc">Hides suggested stories, reels, threads (Suggested posts will still be shown).</string>
+
+    <!-- Developer Options Section -->
+    <string name="piko_category_dev_options">Developer options</string>
+    <string name="piko_enable_dev_options">Enable developer options</string>
+    <string name="piko_enable_dev_options_desc">Unlocks developer option by long pressing home icon</string>
+    <string name="piko_directly_open_metaconfig">Directly opens MetaConfig overrides</string>
+    <string name="piko_directly_open_metaconfig_desc">Directly opens MetaConfig overrides on long pressing home icon (needs developer options enabled)</string>
+    <string name="piko_enable_emp_options">Enable employee options</string>
+    <string name="piko_enable_emp_options_desc">Unlocks all employee options used for testing</string>
+    <string name="piko_allow_user_network_certificate">Allow user network certificate</string>
+    <string name="piko_allow_user_network_certificate_desc">Allows user network certificate for whitehat testing</string>
+    <string name="piko_remove_build_expire_popup">Remove build expire popup</string>
+    <string name="piko_remove_build_expire_popup_desc">Removes the popup that appears after a while, when the app version ages</string>
+    <string name="piko_export_dev_overrides">Export overrides</string>
+    <string name="piko_import_dev_overrides">Import overrides</string>
+    <string name="piko_import_id_mapping">Import mapping files</string>
+    <string name="piko_download_id_mapping">Download mapping file</string>
+    <string name="piko_missing_mapping_file">Missing mapping file</string>
+    <string name="piko_missing_mapping_file_desc">Without mapping file, developer options will not have proper names. Do you want to download it ?</string>
+
+    <!-- Links Section -->
+    <string name="piko_category_links">Links</string>
+    <string name="piko_open_links_externally">Open links externally</string>
+    <string name="piko_open_links_externally_desc">Open links in external browser instead of in-app browser</string>
+    <string name="piko_sanitize_share_links">Sanitize share links</string>
+    <string name="piko_custom_sharing_domain">Custom sharing domain</string>
+    <string name="piko_custom_sharing_domain_desc">Domain to use when sharing links</string>
+
+    <!-- Ghost Section -->
+    <string name="piko_category_ghost">Ghost</string>
+    <string name="piko_view_stories_anonymously">View stories anonymously</string>
+    <string name="piko_view_live_anonymously">View live anonymously</string>
+    <string name="piko_disable_typing_status">Disable typing status</string>
+    <string name="piko_disable_screenshot_detection">Disable screenshot detection</string>
+    <string name="piko_view_dm_anonymously">View direct messages anonymously</string>
+    <string name="piko_view_dm_anonymously_desc">When enabled, others can\'t see when you\'ve read their messages. When both this setting and Turn on all ghost modes are disabled, Instagram\'s Show read receipts setting is used</string>
+    <string name="piko_turn_on_all_ghost_modes">Turn on all ghost modes</string>
+    <string name="piko_ghost_modes_on">Ghost mode: ON</string>
+    <string name="piko_ghost_modes_default">Ghost mode: DEFAULT</string>
+    <string name="piko_ghost_modes_quick_toggle">Enable quick toggle for ghost modes</string>
+    <string name="piko_ghost_modes_quick_toggle_desc">Adds a quick toggle in chat action bar to control ghost modes</string>
+
+    <!-- Distraction-Free Section -->
+    <string name="piko_category_distraction_free">Distraction free</string>
+    <string name="piko_disable_stories">Disable stories</string>
+    <string name="piko_disable_highlights">Disable highlights</string>
+    <string name="piko_disable_explore">Disable explore</string>
+    <string name="piko_disable_comments">Disable comments</string>
+    <string name="piko_limit_following_feed">Limit feed to following profiles</string>
+    <string name="piko_limit_following_feed_desc">Filters the home feed to display only content from profiles you follow.</string>
+    <string name="piko_focus_lock">Focus Lock</string>
+    <string name="piko_focus_lock_desc">Force distraction free settings on for a set time</string>
+    <string name="piko_focus_lock_targets">Settings to lock</string>
+    <string name="piko_focus_lock_reels_tab">Reels tab</string>
+    <string name="piko_focus_lock_reels_tab_desc">Removes the Reels tab from the navigation bar. Reels shared with you still open.</string>
+    <string name="piko_focus_lock_duration">Lock for</string>
+    <string name="piko_focus_lock_duration_1_minute">1 minute</string>
+    <string name="piko_focus_lock_duration_5_minutes">5 minutes</string>
+    <string name="piko_focus_lock_duration_10_minutes">10 minutes</string>
+    <string name="piko_focus_lock_duration_30_minutes">30 minutes</string>
+    <string name="piko_focus_lock_duration_1_hour">1 hour</string>
+    <string name="piko_focus_lock_duration_2_hours">2 hours</string>
+    <string name="piko_focus_lock_duration_6_hours">6 hours</string>
+    <string name="piko_focus_lock_duration_12_hours">12 hours</string>
+    <string name="piko_focus_lock_duration_1_day">1 day</string>
+    <string name="piko_focus_lock_duration_3_days">3 days</string>
+    <string name="piko_focus_lock_duration_1_week">1 week</string>
+    <string name="piko_focus_lock_duration_2_weeks">2 weeks</string>
+    <string name="piko_focus_lock_duration_1_month">1 month</string>
+    <string name="piko_focus_lock_duration_3_months">3 months</string>
+    <string name="piko_focus_lock_enforced">Forced on by Focus Lock.</string>
+    <string name="piko_focus_lock_button_lock">Lock now</string>
+    <string name="piko_focus_lock_button_request_unlock">Request unlock</string>
+    <string name="piko_focus_lock_button_cancel_unlock">Cancel unlock request</string>
+    <string name="piko_focus_lock_button_unlock">Unlock</string>
+    <string name="piko_focus_lock_status_unlocked">Off. Pick what to lock and for how long, then lock it.</string>
+    <string name="piko_focus_lock_status_locked">Locked until %1$s. Unlocking early requires a 24 hour cooling-off period.</string>
+    <string name="piko_focus_lock_status_unlock_pending">Unlock available at %1$s (lock expires %2$s). Tap to cancel the request.</string>
+    <string name="piko_focus_lock_status_unlock_ready">Cooling-off period is over. Tap to unlock.</string>
+    <string name="piko_focus_lock_nothing_selected">Pick at least one setting to lock first.</string>
+    <string name="piko_focus_lock_confirm_lock">Enable Focus Lock?</string>
+    <string name="piko_focus_lock_confirm_lock_desc">The settings you picked stay on for %1$s. To unlock early you have to request it and wait up to %2$d hours. Resetting and importing settings are blocked while locked. The app will restart.</string>
+    <string name="piko_focus_lock_confirm_request_unlock">Request unlock?</string>
+    <string name="piko_focus_lock_confirm_request_unlock_desc">The lock stays active for another %1$d hours. After that, come back here and confirm the unlock.</string>
+    <string name="piko_focus_lock_confirm_unlock">Unlock now?</string>
+    <string name="piko_focus_lock_confirm_unlock_desc">This ends Focus Lock. The app will restart.</string>
+    <string name="piko_focus_lock_locked_toast">Focus Lock enabled.</string>
+    <string name="piko_focus_lock_blocked_action">Not available while Focus Lock is active.</string>
+    <string name="piko_disable_reels_scrolling">Disable Reels scrolling</string>
+    <string name="piko_disable_reels_scrolling_desc">Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the \'Tip\' animation may appear but will stop on its own after a few seconds.</string>
+    <string name="piko_disable_swipe_to_create">Disable swipe to create</string>
+    <string name="piko_disable_swipe_to_create_desc">Prevents opening the creation screen by swiping right on the home tab.</string>
+    <string name="piko_hide_stories_tray">Hide stories tray</string>
+    <string name="piko_hide_stories_tray_desc">Hide stories tray from main feed</string>
+    <string name="piko_hide_notes_tray">Hide notes tray</string>
+    <string name="piko_hide_notes_tray_desc">Hides notes tray in DM section</string>
+    <string name="piko_hide_group_creation_button_on_sharesheet">Hide group creation button on sharesheet</string>
+    <string name="piko_hide_reels_follow_button">Hide Reels follow button</string>
+    <string name="piko_hide_reels_follow_button_desc">Removes the follow button from the Reels author row</string>
+    <string name="piko_disable_double_tap_like_post">Disable double tap like on post</string>
+    <string name="piko_disable_double_tap_like_reel">Disable double tap like on reel</string>
+    <string name="piko_disable_double_tap_like_comment">Disable double tap like on comment</string>
+    <string name="piko_disable_double_tap_like_message">Disable double tap like on message</string>
+    <string name="piko_disable_double_tap_to_like">Disable double tap to like</string>
+
+    <!-- Miscellaneous Section -->
+    <string name="piko_category_misc">Misc</string>
+    <string name="piko_material_you_title">Material You</string>
+    <string name="piko_theme_change_summary">After changing the theme, returning from settings reopens the home screen.</string>
+    <string name="piko_amoled_title">AMOLED</string>
+    <string name="piko_disable_analytics">Disable analytics</string>
+    <string name="piko_delete_analytics_cache">Delete analytic cache</string>
+    <string name="piko_disable_analytics_desc">Block analytics that are sent to Instagram/Facebook servers</string>
+    <string name="piko_disable_discover_people">Hide suggested accounts</string>
+    <string name="piko_follow_back_indicator">Enable friendship status indicator</string>
+    <string name="piko_follow_back_indicator_desc">Adds a follows you back status label on the profile page and shows a detailed friendship status breakdown on click</string>
+    <string name="piko_fbi_color_indicator">Enable colored friendship status indicator</string>
+    <string name="piko_fbi_color_indicator_desc">Friendship status indicator needs to be enabled</string>
+    <string name="piko_fbi_follows_you">Follows you</string>
+    <string name="piko_fbi_doesnt_follows_you">Does not follow you</string>
+    <string name="piko_fbi_following_each_other">Following each other</string>
+    <string name="piko_friendship_status">Friendship status</string>
+    <string name="piko_follow_list_non_follower_badge">Show non-followers in Following list</string>
+    <string name="piko_follow_list_non_follower_badge_desc">Adds a badge to rows in your own Following list for accounts that don\'t follow you back</string>
+    <string name="piko_view_story_mentions">View story mentions</string>
+    <string name="piko_vsm_title">Story mentions</string>
+    <string name="piko_vsm_no_mentions">No mentions on this story</string>
+    <string name="piko_disable_story_flipping">Disable story flipping</string>
+    <string name="piko_disable_story_flipping_desc">Disable automatic flipping/moving to next story</string>
+    <string name="piko_loop_story">Loop story</string>
+    <string name="piko_loop_story_desc">Replay the current story when it ends</string>
+    <string name="piko_disable_video_autoplay">Disable video autoplay</string>
+    <string name="piko_customise_story_timestamp">Customise story timestamp</string>
+    <string name="piko_customise_story_timestamp_desc">Customise the timestamp that shows when the story was posted</string>
+    <string name="piko_improve_image_viewing">Improve image viewing</string>
+    <string name="piko_improve_image_viewing_desc">Fetches max resolution images from server. May reduce performance, increase app data size, or cause the app to switch to an older layout</string>
+    <string name="piko_hide_reshare_button">Hide reshare button</string>
+    <string name="piko_copy_comment">Copy comment</string>
+    <string name="piko_copy_comment_desc">Adds a button to copy comments on posts and reels</string>
+    <string name="piko_comment_copied_success">Comment copied</string>
+    <string name="piko_comment_copied_failed">No text found to copy</string>
+    <string name="piko_save_media_comment">Save media comment</string>
+    <string name="piko_save_media_comment_desc">Adds a button to save media comments on posts and reels</string>
+    <string name="piko_copy_username">Copy username</string>
+    <string name="piko_copy_full_name">Copy full name</string>
+    <string name="piko_copy_user_id">Copy user id</string>
+    <string name="piko_copy_bio">Copy bio</string>
+    <string name="piko_view_profile_picture">View profile picture</string>
+    <string name="piko_copy_profile_link">Copy profile link</string>
+    <string name="piko_share_this_profile">Share this profile</string>
+    <string name="piko_copy_links_from_bio">Copy links from bio</string>
+    <string name="piko_no_links_in_bio">No links in this bio</string>
+    <string name="piko_download_profile_picture">Download profile picture</string>
+    <string name="piko_copied">Copied</string>
+    <string name="piko_more_profile_options">More profile options</string>
+    <string name="piko_remove_empty_bottom_space">Remove empty bottom space</string>
+    <string name="piko_unlock_plus_benefits">Unlock Plus benefits</string>
+    <string name="piko_unlock_plus_benefits_desc">Unlock \'Plus\' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK</string>
+    <string name="piko_customise_story_ring_size">Home story tray size</string>
+    <string name="piko_customise_story_ring_size_desc">Adjust the size of the story tray at the top of Home. The default is 100. Restart the app after changing it</string>
+
+    <!-- DM Section -->
+    <string name="piko_category_dm">DM</string>
+    <string name="piko_unlimited_replays">Make ephemeral media permanent</string>
+    <string name="piko_unlimited_replays_desc">Allows repeated viewing of unexpired view-once or view-twice media. Setting changes apply to newly loaded messages.</string>
+    <string name="piko_enable_mark_chat_as_read">Enable mark chat as read option</string>
+    <string name="piko_enable_mark_chat_as_read_desc">Get an option, on long pressing the chat, to mark it as read. When you mark a chat as read, others can see that you\'ve read their messages, even when View direct messages anonymously is enabled</string>
+
+    <!-- Download Media Section -->
+    <string name="piko_category_download_media">Download media</string>
+    <string name="piko_category_downloads">Downloads</string>
+    <string name="piko_enable_download">Enable download</string>
+    <string name="piko_enable_direct_download">Enable direct download</string>
+    <string name="piko_enable_direct_download_desc">Downloads the current viewing media without asking for options</string>
+    <string name="piko_download_username_folder">Split media by username</string>
+    <string name="piko_download_username_folder_desc">Creates subfolders based on username</string>
+    <string name="piko_embed_download_metadata">Embed video metadata</string>
+    <string name="piko_embed_download_metadata_desc">Adds the caption, post link, creator, and upload date to downloaded MP4 files</string>
+    <string name="piko_download_file_name_template">Filename format</string>
+    <string name="piko_download_file_name_template_invalid">Invalid filename</string>
+    <string name="piko_download_file_name_insert_token">Insert %1$s</string>
+    <string name="piko_download_file_name_variables">Variables</string>
+    <string name="piko_download_file_name_token_username">Username</string>
+    <string name="piko_download_file_name_token_media_id">Media ID</string>
+    <string name="piko_download_file_name_token_shortcode">Shortcode</string>
+    <string name="piko_download_file_name_token_upload_date">Date</string>
+    <string name="piko_download_file_name_token_upload_time">Time</string>
+    <string name="piko_download_file_name_token_type">Type</string>
+    <string name="piko_download_file_name_token_carousel_index">Carousel</string>
+    <string name="piko_download_file_name_token_variant_suffix">Variant</string>
+    <string name="piko_download_current_media">Download current media</string>
+    <string name="piko_download_as_image">Download as image</string>
+    <string name="piko_video_variants">Video variants</string>
+    <string name="piko_image_variants">Image variants</string>
+    <string name="piko_download_audio">Download audio</string>
+    <string name="piko_download_options">Download options</string>
+    <string name="piko_copy_media_link">Copy media link</string>
+    <string name="piko_copied_media_link">Copied media link</string>
+    <string name="piko_download_all">Download all</string>
+    <string name="piko_downloading_media">Downloading: </string>
+    <string name="piko_downloaded_media">Downloaded: </string>
+    <string name="piko_download_failed_media">Download failed : </string>
+    <string name="piko_download_set_path">Choose download folder</string>
+    <string name="piko_download_set_path_success">Download directory updated!</string>
+    <string name="piko_download_set_path_failed">Failed to save download folder</string>
+    <string name="piko_download_choose_folder">Choose a download folder to continue</string>
+    <string name="piko_download_choose_folder_failed">Could not open folder picker</string>
+    <string name="piko_download_grant_permission">Choose a download folder to continue</string>
+    <string name="piko_download_grant_permission_failed">Could not open folder picker</string>
+    <string name="piko_download_with_external_downloader">Download with external downloader</string>
+    <string name="piko_external_downloader_package_name">External downloader package name</string>
+    <string name="piko_external_downloader_package_name_not_found">External downloader package name not found</string>
+    <string name="piko_external_downloader_package_name_not_set">Please set the external downloader package name</string>
+    <string name="piko_download_voice_media">Download voice message</string>
+
+    <!-- Posts Section -->
+    <string name="piko_post_options">Post options</string>
+    <string name="piko_copy_post_description">Copy post description</string>
+    <string name="piko_copy_post_owner_username">Copy post owner username</string>
+    <string name="piko_copy_post_owner_fullname">Copy post owner fullname</string>
+    <string name="piko_enable_more_options_on_post">Enable more option on post</string>
+    <string name="piko_enable_more_options_on_post_desc">Adds an overflow menu button to get more options on post/reels, like copy description, copy username etc</string>
+    <string name="piko_more_options">More options</string>
+
+    <!-- Navigation Section -->
+    <string name="piko_category_hide_navigation_buttons">Hide navigation buttons</string>
+    <string name="piko_hide_navigation_feed">Hide Feed button</string>
+    <string name="piko_hide_navigation_reels">Hide Reels button</string>
+    <string name="piko_hide_navigation_direct">Hide Direct button</string>
+    <string name="piko_hide_navigation_search">Hide Search button</string>
+    <string name="piko_hide_navigation_create">Hide Create button</string>
+    <string name="piko_category_navigation_tabs">Navigation bar</string>
+    <string name="piko_navigation_tabs_title">Show and reorder tabs</string>
+    <string name="piko_navigation_tabs_summary">Choose visible bottom tabs and drag to reorder them</string>
+    <string name="piko_navigation_startup_tab">App startup tab</string>
+    <string name="piko_navigation_startup_tab_summary">Choose which tab opens when the app starts</string>
+    <string name="piko_navigation_tab_home">Home</string>
+    <string name="piko_navigation_tab_reels">Reels</string>
+    <string name="piko_navigation_tab_messages">Messages</string>
+    <string name="piko_navigation_tab_search">Search</string>
+    <string name="piko_navigation_tab_profile">Profile</string>
+    <string name="piko_navigation_tab_notifications">Notifications</string>
+    <string name="piko_navigation_tab_create">Create</string>
+    <string name="piko_navigation_settings_lockout_title">No Piko settings button</string>
+    <string name="piko_navigation_settings_lockout_message">This setup removes every Piko settings entry from the visible tabs. You can still open Piko settings by long-pressing the app icon and selecting Piko settings.</string>
+
+    <!-- Information Section -->
+    <string name="piko_category_about">About</string>
+    <string name="piko_export_pref">Export Piko settings</string>
+    <string name="piko_import_pref">Import Piko settings</string>
+    <string name="piko_reset_pref">Reset Piko settings</string>
+    <string name="piko_reset_pref_confirm">Reset Piko settings?</string>
+    <string name="piko_reset_pref_success">Piko settings reset</string>
+    <string name="piko_reset_pref_failed">Failed to reset Piko settings</string>
+    <string name="piko_app_version">App version: %s</string>
+    <string name="piko_patch_version">Patch version: %s</string>
+    <string name="piko_patch_info_title">Patch information</string>
+    <string name="piko_patch_enabled">Enabled</string>
+    <string name="piko_patch_disabled">Disabled</string>
+
+    <!-- Export and Import Section -->
+    <string name="piko_export_success">Exported successfully</string>
+    <string name="piko_export_fail">Exporting failed</string>
+    <string name="piko_fail_no_path">No destination path provided</string>
+    <string name="piko_fail_no_file">File not found</string>
+    <string name="piko_import_success">Imported successfully</string>
+    <string name="piko_import_fail">Import failed</string>
+    <string name="piko_restart_app">The app needs to be restarted for the changes to reflect</string>
+    <string name="piko_close">Close</string>
+    <string name="piko_ok">OK</string>
+    <string name="piko_reset">Reset</string>
+    <string name="piko_cancel">Cancel</string>
+    <string name="piko_deleted">Deleted</string>
+    <string name="piko_debug">Piko debug</string>
+    <string name="piko_debug_desc">Adds debug option on some of the components for testing</string>
+    <string name="piko_export_experiment_list">Export experiment list</string>
+    <string name="piko_export_experiment_mappings">Export experiment mappings</string>
+
+    <!-- Open With Section -->
+    <string name="piko_open_image_externally">Open image externally</string>
+    <string name="piko_open_video_externally">Open video externally</string>
+    <string name="piko_open_image_with">Open image with</string>
+    <string name="piko_open_video_with">Open video with</string>
+
+    <!-- Like Animation Section -->
+    <string name="piko_change_like_animation">Change like animation</string>
+    <string name="piko_change_like_animation_desc">Change the animation to one from existing Rings like animations</string>
+    <string name="piko_available_like_animation">Available like animations</string>
+    <string name="piko_like_animation_random">Random</string>
+    <string name="piko_like_animation_preview">Animation preview</string>
+    <string name="piko_like_animation_preview_unavailable">Preview unavailable</string>
+
+    <!-- For arrays -->
+    <string name="piko_array_default">Default</string>
+    <string name="piko_array_detailed_timestamp">Detailed timestamp (Weekday/Month/Date/Hour/Minute/Second)</string>
+    <string name="piko_array_post_time">Post time (Hour/Minute/Second)</string>
+    <string name="piko_array_time_left">Time left (Hour/Minute/Second left)</string>
+
+    <string name="piko_array_recmd_flag_state_enable">Enable</string>
+    <string name="piko_array_recmd_flag_state_disable">Disable</string>
+
+    <!-- Welcome Message -->
+    <string name="piko_welcome_title">Welcome to Piko</string>
+    <string name="piko_welcome_message">To improve your experience with Piko, please vist Piko settings and adjust your preference</string>
+    <string name="piko_goto_piko_settings">Goto Piko settings</string>
+    <string name="piko_no_internet">Please connect to internet</string>
+    <string name="piko_tap_here">Tap here !!</string>
+
+    <!-- Action Bar Section -->
+    <string name="piko_category_action_bar">Action bar</string>
+    <string name="piko_action_bar_main_feed">Main feed action bar icons</string>
+    <string name="piko_action_bar_user_profile">User profile action bar icons</string>
+    <string name="piko_action_bar_chat">Chat action bar icons</string>
+    <string name="piko_action_bar_chat_desc">Action bar icons inside a DM</string>
+    <string name="piko_action_bar_inbox">Inbox action bar icons</string>
+
+    <string name="piko_action_bar_button_settings_icon">Settings icon</string>
+    <string name="piko_action_bar_button_ghost_mode_icon">Ghost mode icon</string>
+    <string name="piko_action_bar_button_profile_info_icon">Profile info icon</string>
+    <string name="piko_action_bar_button_create_icon">Create icon</string>
+    <string name="piko_action_bar_button_notifications_icon">Notifications icon</string>
+
+    <string name="piko_settings_on_action_bar">Piko settings on action bar</string>
+    <string name="piko_settings_on_action_bar_desc">Move Piko settings entry point to main feed action bar</string>
+
+    <!-- Font Section -->
+    <string name="piko_category_font">Font</string>
+    <string name="piko_custom_font">Custom font</string>
+    <string name="piko_pref_add_font">Add font</string>
+    <string name="piko_pref_add_font_desc">Pick a font file (.ttf or .otf) from your storage</string>
+    <string name="piko_pref_add_font_success">Font added successfully</string>
+    <string name="piko_pref_add_font_fail">Failed to add the font</string>
+    <string name="piko_pref_add_font_invalid">The selected file is not a valid font</string>
+    <string name="piko_pref_add_font_too_large">The selected font is too large</string>
+    <string name="piko_pref_delete_font">Delete font</string>
+    <string name="piko_pref_delete_font_success">Font deleted successfully</string>
+    <string name="piko_pref_delete_font_fail">Failed to delete the font</string>
+    <string name="piko_pref_delete_font_warn">No custom font found to be deleted</string>
+    <string name="piko_use_system_font">Use system font</string>
+    <string name="piko_use_system_font_desc">Only applies when no font file is added below, adding one overrides this switch.</string>
+
+    <!-- Developer Options Section -->
+    <string name="piko_category_rec_flags">Recommended flags</string>
+    <string name="piko_category_rec_flags_desc">Developer flags suggested by the community</string>
+    <string name="piko_rec_flags_read_error">Failed to read cached flags file</string>
+    <string name="piko_rec_flags_no_file">Recommended flags file not found</string>
+    <string name="piko_rec_flags_refresh_file">Refresh flags</string>
+    <string name="piko_rec_flags_last_modified_at">Last modified: %s</string>
+
+
+    <!-- Story filters -->
+    <string name="piko_category_filter_content">Content filters</string>
+
+    <string name="piko_filter_story">Filter Story</string>
+
+    <string name="piko_filter_story_types_to_hide">Story types to hide</string>
+    <string name="piko_reel_type_ads_reel">Ads reel</string>
+    <string name="piko_reel_type_ar_effect_preview">Ar effect preview</string>
+    <string name="piko_reel_type_archive_day_media_reel">Archive day media reel</string>
+    <string name="piko_reel_type_archive_day_reel">Archive day reel</string>
+    <string name="piko_reel_type_archive_friend_reel">Archive friend reel</string>
+    <string name="piko_reel_type_archive_map_reel">Archive map reel</string>
+    <string name="piko_reel_type_archive_scheduled_for_deletion_reel">Archive scheduled for deletion reel</string>
+    <string name="piko_reel_type_archive_shop_reel">Archive shop reel</string>
+    <string name="piko_reel_type_axe_reel">Axe reel</string>
+    <string name="piko_reel_type_birthday_highlights">Birthday highlights</string>
+    <string name="piko_reel_type_bloks">Blox</string>
+    <string name="piko_reel_type_broadcast_reel">Broadcast reel</string>
+    <string name="piko_reel_type_daily_snapshot_reel">Daily snapshot reel</string>
+    <string name="piko_reel_type_election_reel">Election reel</string>
+    <string name="piko_reel_type_empty_story_state_reel">Empty story state reel</string>
+    <string name="piko_reel_type_end_of_year">End of year</string>
+    <string name="piko_reel_type_expiring_story_reel">Expiring story reel</string>
+    <string name="piko_reel_type_fan_club_story">Fan club story</string>
+    <string name="piko_reel_type_follow_versaries">Follow versaries</string>
+    <string name="piko_reel_type_friend_map_reel">Friend map reel</string>
+    <string name="piko_reel_type_group_mention">Group mention</string>
+    <string name="piko_reel_type_group_reel">Group reel</string>
+    <string name="piko_reel_type_hallpass_reel">Hall pass reel</string>
+    <string name="piko_reel_type_highlight_reel">Highlight reel</string>
+    <string name="piko_reel_type_highlight_rewind_reel">Highlight rewind reel</string>
+    <string name="piko_reel_type_inactive_hallpass_reel">Inactive hallpass reel</string>
+    <string name="piko_reel_type_mas_reel">Mas reel</string>
+    <string name="piko_reel_type_media_reshare">Media reshare</string>
+    <string name="piko_reel_type_memory_reel">Memory reel</string>
+    <string name="piko_reel_type_my_week_reel">My week reel</string>
+    <string name="piko_reel_type_netego_reel">Net ego reel</string>
+    <string name="piko_reel_type_nux_reel">Nux reel</string>
+    <string name="piko_reel_type_private_story">Private story</string>
+    <string name="piko_reel_type_prompt_sticker_reel">Prompt sticker reel</string>
+    <string name="piko_reel_type_reconsideration_injected_story">reconsideration injected story</string>
+    <string name="piko_reel_type_shopping_auto_highlight_reel">Shopping smart reel</string>
+    <string name="piko_reel_type_shopping_pdp_reel">Shopping pdp reel</string>
+    <string name="piko_reel_type_shopping_smart_reel">Shopping smart reel</string>
+    <string name="piko_reel_type_stars_welcome_reel">Stars welcome reel</string>
+    <string name="piko_reel_type_story_stationary_timeline_reel">Story stationary timeline reel</string>
+    <string name="piko_reel_type_subscription_shoutout_mention">Subscription shoutout mention</string>
+    <string name="piko_reel_type_suggested_creator_reel">Suggested creator reel</string>
+    <string name="piko_reel_type_suggested_user">Suggested user</string>
+    <string name="piko_reel_type_suggested_user_reel">Suggested user reel</string>
+    <string name="piko_reel_type_superlative_reel">Superlative reel</string>
+    <string name="piko_reel_type_third_party_app_story">Third party app story</string>
+    <string name="piko_reel_type_typed_container">Typed container</string>
+    <string name="piko_reel_type_user_reel">User reel</string>
+
+    <string name="piko_filter_story_user_types_to_hide">User types to hide</string>
+    <string name="piko_user_type_unverified">Unverified users</string>
+    <string name="piko_user_type_verified">Verified users</string>
+
+    <string name="piko_filter_story_minimum_item_count">Minimum story items</string>
+    <string name="piko_filter_story_minimum_item_count_desc">Stories having less than x items will be hidden (default 1)</string>
+    <string name="piko_filter_story_maximum_item_count">Maximum story items</string>
+    <string name="piko_filter_story_maximum_item_count_desc">Stories having more than x items will be hidden (default 9999)</string>
+
+    <!-- Save & view deleted (unsent) direct messages -->
+    <string name="piko_open_share_in_instagram">Open in Instagram</string>
+    <string name="piko_open_voice_with_player">Open with music player</string>
+    <string name="piko_save_deleted_messages">Save deleted messages</string>
+    <string name="piko_save_deleted_messages_desc">Captures incoming DMs locally as they arrive from the server. Marks messages as deleted when unsent, so you can view them even after the sender deletes them.</string>
+    <string name="piko_view_deleted_messages">View deleted messages</string>
+    <string name="piko_all_deleted_messages">All deleted messages</string>
+    <string name="piko_no_deleted_messages">No deleted messages captured yet.\nEnable the feature and messages will be saved as they arrive.</string>
+    <string name="piko_all">All</string>
+    <string name="piko_selected_count">%d selected</string>
+    <string name="piko_delete_selected_confirm">Delete %d selected messages?</string>
+    <string name="piko_delete">Delete</string>
+    <string name="piko_unknown">Unknown</string>
+    <string name="piko_tap_to_view">tap to view</string>
+    <string name="piko_media_expired">link expired</string>
+    <string name="piko_media_not_available">media not available</string>
+    <string name="piko_deleted_a_message">%s deleted a message</string>
+    <string name="piko_someone">Someone</string>
+    <string name="piko_deleted_messages_channel">Deleted messages</string>
+    <string name="piko_deleted_messages_channel_desc">Notifies when a received message is unsent</string>
+    <string name="piko_media_label">[%s]</string>
+    <string name="piko_media_deleted">[%s deleted]</string>
+    <string name="piko_media_deleted_generic">[deleted]</string>
+    <string name="piko_media_unknown">media</string>
+    <string name="piko_media_photo">photo</string>
+    <string name="piko_media_disappearing_photo">disappearing photo</string>
+    <string name="piko_media_video">video</string>
+    <string name="piko_media_voice">voice message</string>
+    <string name="piko_media_gif">GIF</string>
+    <string name="piko_media_reel">reel</string>
+    <string name="piko_media_story">story</string>
+    <string name="piko_media_post">post</string>
+    <string name="piko_media_like">like</string>
+    <string name="piko_media_link">link</string>
+    <string name="piko_media_activity">activity</string>
+    <string name="piko_mark_story_seen">Mark as seen</string>
+    <string name="piko_story_seen_pending">Marking as seen</string>
+    <string name="piko_story_seen_sent">Marked as seen</string>
+    <string name="piko_relationship_yes">Yes</string>
+    <string name="piko_relationship_no">No</string>
+    <string name="piko_relationship_blocking">You blocked this account</string>
+    <string name="piko_relationship_followed_by">Follows you</string>
+    <string name="piko_relationship_following">You follow this account</string>
+    <string name="piko_relationship_incoming_request">Received follow request</string>
+    <string name="piko_relationship_is_banner_profile_upsell">Profile promotion banner</string>
+    <string name="piko_relationship_is_bestie">In your close friends</string>
+    <string name="piko_relationship_is_blocking_reel">You hid your story from this account</string>
+    <string name="piko_relationship_is_eligible_to_subscribe">Eligible to subscribe</string>
+    <string name="piko_relationship_is_feed_favorite">In your favorites</string>
+    <string name="piko_relationship_is_messaging_only_blocking">Messages blocked</string>
+    <string name="piko_relationship_is_messaging_pseudo_blocking">Messages treated as blocked</string>
+    <string name="piko_relationship_is_muting_media_notes">Media notes muted</string>
+    <string name="piko_relationship_is_muting_media_reposts">Reposts muted</string>
+    <string name="piko_relationship_is_muting_notes">Notes muted</string>
+    <string name="piko_relationship_is_muting_quick_snap">Quick snaps muted</string>
+    <string name="piko_relationship_is_muting_reel">Stories muted</string>
+    <string name="piko_relationship_is_private">Private account</string>
+    <string name="piko_relationship_is_restricted">Restricted account</string>
+    <string name="piko_relationship_is_unavailable">Account unavailable</string>
+    <string name="piko_relationship_is_viewer_unconnected">Viewer is unconnected</string>
+    <string name="piko_relationship_muting">Posts muted</string>
+    <string name="piko_relationship_outgoing_request">Sent follow request</string>
+    <string name="piko_relationship_should_show_profile_upsell">Show profile promotion</string>
+    <string name="piko_relationship_subscribed">Subscribed to this account</string>
+    <string name="piko_message_download_unsupported">This message cannot be downloaded.</string>
+    <string name="piko_sender_id">User ID: %1$s</string>
+    <string name="piko_manual_read_unavailable">대화를 먼저 열어 메시지를 확인한 뒤, 읽은 상태로 표시를 다시 선택해 주세요.</string>
+    <string name="piko_story_timestamp_detailed_format">EEEE, MMMM dd HH:mm:ss</string>
+    <string name="piko_story_timestamp_remaining">%1$d h %2$d m %3$d s left</string>
+    <string name="piko_story_timestamp_expired">Expired</string>
+
+    <!-- Recommended flags from the live mapping, keyed by stable mobile-config code -->
+    <string name="piko_rec_flag_110215_name">Add blurred background when reposting in Stories: Reels, Post and Stories mentioned</string>
+    <string name="piko_rec_flag_73245_name">Button with a black layout that appears when clicking on something in Stories</string>
+    <string name="piko_rec_flag_118413_name">Edit stories after you have been posted</string>
+    <string name="piko_rec_flag_118413_desc">Limit of 15 minutes to modify.</string>
+    <string name="piko_rec_flag_85030_name">New fonts and animations for Stories</string>
+    <string name="piko_rec_flag_125004_name">New Instagram Plus fonts for Stories</string>
+    <string name="piko_rec_flag_125004_desc">Make sure to enable the option to access Instagram Plus features.</string>
+    <string name="piko_rec_flag_126445_name">New style for the timestamp on the posted Stories</string>
+    <string name="piko_rec_flag_93316_name">Post a Stories directly to Highlights</string>
+    <string name="piko_rec_flag_93316_desc">and add a sticker redirecting to the selected highlight</string>
+    <string name="piko_rec_flag_90996_name">Redesign Stories viewer</string>
+    <string name="piko_rec_flag_105130_name">Remove yourself from someone\'s Stories Close Friends list</string>
+    <string name="piko_rec_flag_105130_desc">Click the Close Friends icon, and you\'ll see a button to leave.</string>
+    <string name="piko_rec_flag_119043_name">Send Stories by pressing and holding the Stories airplane button</string>
+    <string name="piko_rec_flag_119728_name">Stories viewer list redesign</string>
+    <string name="piko_rec_flag_115501_name">Upload progress percentage while posting a Stories</string>
+    <string name="piko_rec_flag_115501_desc">Shows upload progress percentage while posting a Story, giving real-time feedback on upload status.</string>
+    <string name="piko_rec_flag_58803_name">Replace the Instagram logo with \'For You\' in the feed.</string>
+    <string name="piko_rec_flag_103957_name">Watching Reels and videos in the feed at 2x playback speed</string>
+    <string name="piko_rec_flag_103957_desc">Press and hold the corners to play in the feed.</string>
+    <string name="piko_rec_flag_109947_name">Overflow menu playback speed in reels</string>
+    <string name="piko_rec_flag_121815_name">Quick playback menu in reels</string>
+    <string name="piko_rec_flag_121815_desc">When pressing and holding, it will open a quick playback menu.</string>
+    <string name="piko_rec_flag_98405_name">Show a spoiler of the temporary photo/video in direct</string>
+    <string name="piko_rec_flag_46551_name">Allow profile photo expansion</string>
+    <string name="piko_rec_flag_46551_desc">Display a new button in the \'Account Privacy\' settings section that allows users to enable or disable zooming on their profile picture.</string>
+    <string name="piko_rec_flag_93842_name">Explore zoom animation</string>
+    <string name="piko_rec_flag_124823_name">Redesign in the explore tab</string>
+    <string name="piko_rec_flag_77064_name">Display the user\'s username instead of the nickname</string>
+    <string name="piko_rec_flag_77064_desc">for notifications and in direct</string>
+    <string name="piko_rec_flag_111259_name">New Instagram logo</string>
+    <string name="piko_rec_flag_91066_name">Redesign for notification settings</string>
+    <string name="piko_rec_flag_127260_name">Send quick emoji reactions by long-pressing the Story Like button</string>
+    <string name="piko_rec_flag_109730_name">Add Meta AI in reels overflow menu</string>
+    <string name="piko_rec_flag_80654_name">Add Meta AI reels description pills</string>
+    <string name="piko_rec_flag_111509_3_name">Meta AI suggestions in search</string>
+    <string name="piko_rec_flag_111509_3_desc">Disable to show recent profile searches instead.</string>
+    <string name="piko_rec_flag_111509_9_name">Collapsible recent searches</string>
+    <string name="piko_rec_flag_111509_9_desc">Disable to stop the recent searches list from collapsing.</string>
+    <string name="piko_rec_flag_111509_21_name">Horizontal scroll for recent searches</string>
+    <string name="piko_rec_flag_111509_21_desc">Disable to show recent searches in a vertical list instead.</string>
+    <string name="piko_rec_flag_111509_25_name">Search bar hint carousel</string>
+    <string name="piko_rec_flag_111509_26_name">Search bar hint carousel (dynamic)</string>
+    <string name="piko_rec_flag_63806_0_name">Suggested users in search null state</string>
+    <string name="piko_rec_flag_63806_0_desc">Disable to hide suggested accounts from the search screen.</string>
+    <string name="piko_rec_flag_111509_17_name">Max recent searches shown (Android)</string>
+    <string name="piko_rec_flag_111509_17_desc">Number of recent profiles kept in search history. Classic value was 25.</string>
+    <string name="piko_rec_flag_111509_1_name">Max recent searches shown</string>
+    <string name="piko_rec_flag_111509_1_desc">Number of recent profiles kept in search history. Classic value was 25.</string>
+    <string name="piko_rec_flag_109125_name">Disable forced HDR brightness on photos</string>
+    <string name="piko_rec_flag_109125_desc">Turns off Ultra HDR, which always renders photos at boosted brightness</string>
+    <string name="piko_rec_flag_68885_name">Disable forced brightness boost on Reels/video</string>
+    <string name="piko_rec_flag_68885_desc">Turns off the SDR \'super white\' brightness boost on HDR-capable screens</string>
+    <string name="piko_rec_flag_83371_10_name">Remember auto-scroll state across restarts</string>
+    <string name="piko_rec_flag_83371_10_desc">Disable to keep auto-scroll in whatever state you left it in, instead of resetting to off every time Instagram is closed</string>
+</resources>

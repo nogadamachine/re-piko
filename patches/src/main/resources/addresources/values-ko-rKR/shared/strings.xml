@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="piko_title_settings">re-piko 설정</string>
+    <string name="piko_title_piko_patches">re-piko 패치</string>
+    <string name="piko_name">re-piko</string>
+</resources>
