@@ -519,4 +519,6 @@
     <string name="piko_rec_flag_68885_desc">HDR 지원 화면에서 SDR 슈퍼 화이트 밝기 향상을 끕니다.</string>
     <string name="piko_rec_flag_83371_10_name">앱 재시작 후에도 자동 스크롤 상태 유지</string>
     <string name="piko_rec_flag_83371_10_desc">끄면 Instagram을 닫을 때마다 자동 스크롤이 꺼지는 대신 마지막으로 설정한 상태를 유지합니다.</string>
+    <string name="piko_story_viewer_names">스토리 조회자 아이디와 이름 표시</string>
+    <string name="piko_story_viewer_names_desc">스토리 조회자 목록에 아이디와 이름을 함께 표시합니다. 프로페셔널 인사이트 권한은 활성화하지 않습니다.</string>
 </resources>

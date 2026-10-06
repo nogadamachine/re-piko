@@ -302,6 +302,10 @@ public class Pref {
         return SharedPref.getBooleanPref(Settings.LOOP_STORY);
     }
 
+    public static boolean storyViewerNames() {
+        return SharedPref.getBooleanPref(Settings.STORY_VIEWER_NAMES);
+    }
+
     public static boolean viewStoryMentions() {
         return SharedPref.getBooleanPref(Settings.VIEW_STORY_MENTIONS);
     }

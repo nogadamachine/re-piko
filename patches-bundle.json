@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-02T02:49:41",
-  "description": "re-piko r38: Instagram 449.0.0.52.84 전용 한국어 Piko 패치. 실제 검증 범위와 남은 조건은 릴리스 안내를 확인하세요.",
-  "download_url": "https://github.com/nogadamachine/re-piko/releases/download/v0.1.0-dev.1/re-piko-449-r38.mpp",
+  "created_at": "2026-10-06T09:10:40",
+  "description": "re-piko r40: Instagram 449.0.0.52.84 전용. 스토리 조회자 아이디와 이름 표시 추가. 상세 인사이트 제공 범위는 릴리스 안내를 확인하세요.",
+  "download_url": "https://github.com/nogadamachine/re-piko/releases/download/v0.1.0-dev.2/re-piko-449-r40.mpp",
   "signature_download_url": null,
-  "page_url": "https://github.com/nogadamachine/re-piko/releases/tag/v0.1.0-dev.1",
-  "version": "0.1.0-dev.1"
+  "page_url": "https://github.com/nogadamachine/re-piko/releases/tag/v0.1.0-dev.2",
+  "version": "0.1.0-dev.2"
 }

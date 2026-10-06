@@ -658,6 +658,12 @@ public class ScreenBuilder {
                     )
             );
         }
+        if (SettingsStatus.storyViewerNames) {
+            addPreference(helper.switchPreference(
+                    str("piko_story_viewer_names"),
+                    str("piko_story_viewer_names_desc"),
+                    Settings.STORY_VIEWER_NAMES));
+        }
         if (SettingsStatus.viewStoryMentions) {
             addPreference(
                     helper.switchPreference(

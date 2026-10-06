@@ -546,4 +546,6 @@
     <string name="piko_rec_flag_68885_desc">Turns off the SDR \'super white\' brightness boost on HDR-capable screens</string>
     <string name="piko_rec_flag_83371_10_name">Remember auto-scroll state across restarts</string>
     <string name="piko_rec_flag_83371_10_desc">Disable to keep auto-scroll in whatever state you left it in, instead of resetting to off every time Instagram is closed</string>
+    <string name="piko_story_viewer_names">Show story viewer usernames and names</string>
+    <string name="piko_story_viewer_names_desc">Display the username and name in story viewer lists. Does not enable professional insights.</string>
 </resources>
