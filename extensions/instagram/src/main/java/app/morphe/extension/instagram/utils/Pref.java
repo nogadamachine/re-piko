@@ -502,5 +502,13 @@ public class Pref {
         return Integer.valueOf(SharedPref.getStringPref(Settings.FILTER_STORY_MAX_STORY_ITEMS));
     }
 
+    public static boolean inboxLock() {
+        return SharedPref.getBooleanPref(Settings.INBOX_LOCK);
+    }
+
+    public static boolean inboxLockNotifications() {
+        return inboxLock() && SharedPref.getBooleanPref(Settings.INBOX_LOCK_NOTIFICATIONS);
+    }
+
     //end
 }

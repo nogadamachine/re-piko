@@ -211,12 +211,17 @@ public class SettingsStatus {
     public static void moreOptionsOnProfile() { moreOptionsOnProfile = true; }
     public static boolean miscSection() {return ( saveMediaCommentButton || moreOptionsOnProfile || moreOptionsOnPost || customiseStoryRingSize || changeLikeAnimation || unlockPlusBenefits || disableVideoAutoplay || removeEmptyBottomSpace || copyCommentButton || improveImageViewing || customiseStoryTimestamp || disableAnalytics || disableDiscoverPeople || followBackIndicator || followListNonFollowerBadge || storyViewerNames || viewStoryMentions || disableStoryFlipping || loopStory || hideReshareButton || customFont);}
 
+    public static boolean instantsDownload = false;
+    public static void instantsDownload() { instantsDownload = true; }
+    public static boolean inboxLock = false;
+    public static void inboxLock() { inboxLock = true; }
+
     //DM section
     public static boolean unlimitedReplaysOnEphemeralMedia = false;
     public static void unlimitedReplaysOnEphemeralMedia() {unlimitedReplaysOnEphemeralMedia = true;}
     public static boolean markChatAsRead = false;
     public static void markChatAsRead() { markChatAsRead = true; }
-    public static boolean dmSection(){ return markChatAsRead || unlimitedReplaysOnEphemeralMedia || saveDeletedMessages ;}
+    public static boolean dmSection(){ return markChatAsRead || unlimitedReplaysOnEphemeralMedia || saveDeletedMessages || inboxLock ;}
 
     //Download section.
     public static boolean downloadMedia = false;
@@ -289,6 +294,8 @@ public class SettingsStatus {
 
         FLAGS.put(str("piko_view_dm_anonymously"),SettingsStatus.viewDmAnonymously);
         FLAGS.put(str("piko_save_deleted_messages"),SettingsStatus.saveDeletedMessages);
+        FLAGS.put(str("piko_instants_title"), SettingsStatus.instantsDownload);
+        FLAGS.put(str("piko_inbox_lock"), SettingsStatus.inboxLock);
         FLAGS.put(str("piko_disable_screenshot_detection"),SettingsStatus.disableScreenshotDetection);
         FLAGS.put(str("piko_disable_typing_status"),SettingsStatus.disableTypingStatus);
         FLAGS.put(str("piko_view_live_anonymously"),SettingsStatus.viewLiveAnonymously);

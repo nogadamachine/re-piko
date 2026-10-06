@@ -10,6 +10,7 @@ package app.morphe.extension.instagram.settings;
 import static app.morphe.extension.instagram.utils.IgStr.str;
 
 import android.content.Context;
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 
@@ -22,6 +23,10 @@ import app.morphe.extension.instagram.constants.Constants;
 
 @SuppressWarnings("deprecation")
 public class ActivityHook {
+
+    public static void launchActivity(Context context, Class<? extends Activity> activityClass) {
+        launchActivity(context, new Intent(context, activityClass));
+    }
 
     private static void launchActivity(Context context, Intent intent){
         try {

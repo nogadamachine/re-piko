@@ -20,14 +20,13 @@ object Constants {
             appIconColor = 0xFC483C,
             targets =
                 listOf(
-                    // Unofficial 449-only experimental port; use upstream Piko for 439.
+                    // Instagram 449-only supported target.
                     AppTarget(
                         version = "449.0.0.52.84",
                         versionCodes =
                             mapOf(
                                 ARM64_V8A to 385511871,
                             ),
-                        isExperimental = true,
                     ),
                 ),
         )
@@ -72,4 +71,5 @@ object Constants {
     const val LOAD_FLAGS_DESCRIPTOR = "invoke-static {}, $HOOK_FLAGS_DESCRIPTOR->%s()V"
 
     const val COMMENT_BUTTON_EXTENSION_CLASS = "${PATCHES_DESCRIPTOR}/comment"
+    const val INSTANTS_DESCRIPTOR = "$PATCHES_DESCRIPTOR/instants"
 }

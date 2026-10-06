@@ -254,6 +254,23 @@ public class ScreenBuilder {
             );
         }
 
+        if (SettingsStatus.inboxLock) {
+            addPreference(
+                    helper.switchPreference(
+                            str("piko_inbox_lock"),
+                            str("piko_inbox_lock_desc"),
+                            Settings.INBOX_LOCK
+                    )
+            );
+            addPreference(
+                    helper.switchPreference(
+                            str("piko_inbox_lock_notifications"),
+                            str("piko_inbox_lock_notifications_desc"),
+                            Settings.INBOX_LOCK_NOTIFICATIONS
+                    )
+            );
+        }
+
         if (SettingsStatus.saveDeletedMessages) {
             addPreference(
                     helper.switchPreference(
@@ -758,6 +775,25 @@ public class ScreenBuilder {
         }
     }
 
+    public void buildInstantsSection() {
+        if (SettingsStatus.instantsDownload) {
+            addPreference(
+                    helper.switchPreference(
+                            str("piko_instants_download"),
+                            str("piko_instants_download_desc"),
+                            Settings.INSTANTS_DOWNLOAD
+                    )
+            );
+            addPreference(
+                    helper.buttonPreference(
+                            str("piko_view_saved_instants"),
+                            "",
+                            "piko_view_saved_instants"
+                    )
+            );
+        }
+    }
+
     public void buildDownloadSection() {
         if (!SettingsStatus.downloadSection()) return;
 
@@ -1121,6 +1157,16 @@ public class ScreenBuilder {
                             str("piko_category_downloads"),
                             "",
                             Constants.PIKO_FRAGMENT_DOWNLOAD_MEDIA
+                    )
+            );
+        }
+
+        if (SettingsStatus.instantsDownload){
+            addPreference(
+                    helper.categoryPreference(
+                            str("piko_instants_title"),
+                            "",
+                            Constants.PIKO_FRAGMENT_INSTANTS
                     )
             );
         }
